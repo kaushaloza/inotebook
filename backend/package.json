@@ -1,0 +1,19 @@
+{
+  "name": "inotebook-backend",
+  "version": "1.0.0",
+  "description": "This is basic app which runs on the cloud. You can manage and get notes everywhere anytime with just logIN",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "inotebook"
+  ],
+  "author": "kaushal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.4.0",
+    "nodemon": "^2.0.16"
+  }
+}
